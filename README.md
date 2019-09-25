@@ -1,0 +1,6 @@
+A datalogging app for 1st generation Chevy Cruze 1.4t geared toward users/owners of HP Tuners software and hardware.
+The main point is to allow for datalogging using inexpensive devices like the OBDLink MX (not sponsored) and equivalent hardware that can read the SAE PID standards via OBD2, as well as SW-CAN GM.
+With this, ideally, you will able to set your PIDs for everything you need to log, say, MAF disabled SD tuning for VVE, and this app can hopefully in the future spit out a .HPL file that can be opened with VCM scanner.
+The underlying benefit is that you will not have to carry/semi-permanently install your MPVI device in your car (which is REALLY expensive), and can use a cheaper (sub-$100) ELM OBD2 device with proper support to pull the logs to any android device and gather data for you to use when tuning your vehicle.
+
+For now this is geared toward my current platform ('15 Chevy Cruze LT 1.4 Turbo 6-speed manual), but it should be able to be used on any OBD2 compliant vehicle with the proper PIDs and HP Tuners support for that platform.
